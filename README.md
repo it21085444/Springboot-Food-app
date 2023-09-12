@@ -40,22 +40,27 @@ Foodies is a platform where users can:
 ### Prerequisites
 To run the Foodies social media app, you will need the following:
 
-- Java Development Kit (JDK)
+- Java Development Kit 17 (JDK)
 - Node.js and npm (Node Package Manager)
 - Git
 
 ### Running the REST API
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/foodies-social-media.git
+   git clone https://github.com/it21085444/Springboot-Food-app.git
    ```
 
-2. Navigate to the `api` directory:
+2. Navigate to the backend directory:
    ```bash
-   cd foodies-social-media/api
+   cd Springboot-Food-app/foodies
    ```
-
-3. Build and run the Spring Boot application:
+   
+4. Install Dependencies and Build the Project:
+   ```bash
+   mvn clean install
+   ```
+   
+4. Build and run the Spring Boot application:
    ```bash
    ./mvnw spring-boot:run
    ```
@@ -65,7 +70,7 @@ The API will be accessible at `http://localhost:8080`.
 ### Running the Client Web Application
 1. Navigate to the `client` directory:
    ```bash
-   cd foodies-social-media/client
+   cd Springboot-Food-app/client
    ```
 
 2. Install the required Node.js packages:
